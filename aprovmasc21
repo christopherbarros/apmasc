@@ -1,0 +1,29 @@
+Algoritmo "semnome"
+// Disciplina   : [Linguagem e Lógica de Programação]
+// Professor   : Marcelo Sudo
+// Descrição   : Estrutura Condicional
+// Autor(a)    : Christopher Barros
+// Data atual  : 25/08/2022
+
+
+Var
+
+nome: caracter
+idade: inteiro
+sexo: caracter
+
+inicio
+escreva ("nome")
+leia (nome)
+escreva ("idade")
+leia (idade)
+escreva ("sexo")
+leia (sexo)
+
+
+se (sexo = "M") e (idade >= 21) entao
+escreva(" aprovado.")
+senao
+escreva( "reprovado")
+fimse
+Fimalgoritmo
